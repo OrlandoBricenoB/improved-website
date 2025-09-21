@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (imageIndex > images.length-1) imageIndex = 0
 
-        sProject.src = './assets/ico/'+images[imageIndex]
+        sProject.src = './public/ico/'+images[imageIndex]
 
         sProject.classList.remove('change')    
     })
