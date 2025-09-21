@@ -15,7 +15,7 @@
 }
 
 body {
-    background: url(./img/Lightning.png) no-repeat;
+    background: url(./public/img/Lightning.png) no-repeat;
     background-position: 40% 0;
     background-size: auto 0px;
     transition: .1s 1s background
@@ -28,7 +28,7 @@ body.loaded {
 
 @font-face {
     font-family: 'rubik';
-    src: url('./fonts/rubik.ttf')
+    src: url('./public/fonts/rubik.ttf')
 }
 
 html { min-height: 100% }
@@ -79,7 +79,7 @@ h2, h3 {
 
 h2.special::before {
     content: '';
-    background-image: url('./ico/Lightning-H2.png');
+    background-image: url('./public/ico/Lightning-H2.png');
     background-size: 100% 100%;
     position: absolute;
     top: -75%;
@@ -93,7 +93,7 @@ h2.special::before {
 
 h3::before {
     content: '';
-    background-image: url('./ico/Lightning-H3.png');
+    background-image: url('./public/ico/Lightning-H3.png');
     background-size: 100% 100%;
     position: absolute;
     top: -20%;
